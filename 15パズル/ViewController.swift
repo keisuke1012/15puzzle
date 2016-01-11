@@ -113,62 +113,63 @@ class ViewController: UIViewController {
             
             //ラベルをタイルの上に貼る
             let la = UILabel()
+            let csv = LoaderFile()
             
             if(idx < self.numOfTiles-1) {
                 //普通のタイル
                 if(idx==0){
-                    la.text = String("for(")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }else if(idx==1){
-                    la.text = String("i=2;")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }else if(idx==2){
-                    la.text = String("i<=num;")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }else if(idx==3){
-                    la.text = String("i++){")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }
                     
                 else if(idx==4){
-                    la.text = String("if")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }else if(idx==5){
-                    la.text = String("(")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }else if(idx==6){
-                    la.text = String("i=num")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }else if(idx==7){
-                    la.text = String("){")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }
                     
                 else if(idx==8){
-                    la.text = String("}else if(")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }else if(idx==9){
-                    la.text = String("(num%i)")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }else if(idx==10){
-                    la.text = String("==0)")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }else if(idx==11){
-                    la.text = String("{")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }
                     
                 else if(idx==12){
-                    la.text = String("break")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }else if(idx==13){
-                    la.text = String(";")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }else if(idx==14){
-                    la.text = String("}")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }else if(idx==15){
-                    la.text = String("素数判定")
+                    la.text = csv.csvLoedar(idx)
                     la.textAlignment=NSTextAlignment.Center
                 }
             } else {
