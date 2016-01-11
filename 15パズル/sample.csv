@@ -1,0 +1,1 @@
+for(,i=2;,i<=num;,i++){if,(,i=num,){}else if(,(num%i),==0),{break,;,},end
